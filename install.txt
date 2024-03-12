@@ -1,0 +1,17 @@
+
+	El. parduotuvės eshop diegimo instrukcija
+
+	Diegiant el. parduotuvę reikia turėti serverį, kuriame veiktu php ir MySQL arba MariaDb duomenų bazė. Jei norite tik išmėginti jos galimybes siųlome įdiegti xampp serverį į savo kompiuterį.
+	
+	1. susikurti duomenų baze serveryje, kuriame veiks el.parduovė
+	2. įmportuoti failą parduotuve-20230417.sql į susikurtą duomenų bazę
+	3. paruoškite failus serveryje:
+		jei naudojate xampp, nukopijuokite išarchyvuotą turinį  *.php failiukus ir visą paveiksliukai katalogą į xammp kataloge esantį htdocs katalogą jei norite kad parduotvės adresas būtu http://localhost/prekes.php
+		arba tame kataloge sukurkite dar vieną katalogą pvz.: eshop, tuomet parduotuvės adresas bus http://localhost/eshop/prekes.php
+		
+		jei naudojate nupirktą talpinimo planą savo serveryje, greičiausiai jums reikės  išarchyvuotą turinį  *.php failiukus ir visą paveiksliukai katalogą perkopijuoti į public_html katalogą, tuomet parduotuvės adresas
+		bus http://jusu_priparkuotas_domenas/prekes.php arba http://suteiktas_subdomenas/prekes.php, jei domenas nepriparkuotas
+		arba tame kataloge sukurkite dar vieną katalogą pvz.: eshop, tuomet parduotuvės adresas bus http://jusu_priparkuotas_domenas/eshop/prekes.php 
+		arba http://suteiktas_subdomenas/eshop/prekes.php, jei domenas nepriparkuotas 
+		
+	4. 
