@@ -2,7 +2,6 @@
 
 	$conf  = array (
 	
-	
 		'prekiu_vieta' => 'duomenu_baze' // arba  'failas' 
 		
 		, 'db_server' => 'localhost'
